@@ -1,0 +1,32 @@
+{
+    "name": "omniship/correios",
+    "type": "library",
+    "description": "Common components for Omniship shipment processing library",
+    "keywords": [
+        "shipment",
+        "transporter",
+        "omniship",
+        "ship",
+        "carrier",
+        "delivery"
+    ],
+    "homepage": "https://github.com/phpmga/omniship-correios",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Vanderson Lopes",
+            "email": "vandersonlopes@yahoo.com.br"
+        }
+    ],
+    "autoload": {
+        "psr-4": { "Omniship\\Correios\\" : "src" }
+    },
+    "require": {
+        "omniship/common": "^1",
+        "guzzlehttp/guzzle": "^6.3",
+        "php-http/guzzle6-adapter": "^1.1",
+        "stavarengo/php-sigep": "^0.0.1"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
