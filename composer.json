@@ -1,5 +1,5 @@
 {
-    "name": "omniship/correios",
+    "name": "phpmga/omniship-correios",
     "type": "library",
     "description": "Common components for Omniship shipment processing library",
     "keywords": [
@@ -22,7 +22,7 @@
         "psr-4": { "Omniship\\Correios\\" : "src" }
     },
     "require": {
-        "omniship/common": "^1",
+        "phpmga/omniship-common": "^1",
         "guzzlehttp/guzzle": "^6.3",
         "php-http/guzzle6-adapter": "^1.1",
         "stavarengo/php-sigep": "^0.0.1"
